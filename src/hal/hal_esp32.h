@@ -16,6 +16,7 @@
 #include <stdint.h>
 #include <freertos/FreeRTOS.h>
 #include <freertos/queue.h>
+#include <freertos/semphr.h>
 #include "driver/spi_master.h"
 
 extern "C" {
